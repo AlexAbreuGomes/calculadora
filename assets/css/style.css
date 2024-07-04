@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 330px;
+    width: 380px;
     height: 580px;
     position: absolute;
     top: 50%;
@@ -45,27 +45,28 @@
     
 }
 
-.botao0 {
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    font-size: 20px;
-    border: none;
-    background: linear-gradient(to right, #6464ec, #27e5f3, #6464ec);
-    transition: background-color 0.3s;
-}
 
 .botao0:hover {
     background: linear-gradient(to right,#05b4e3, #4cc9f0, #05b4e3);
 }
 
 .botao {
-    width: 70px;
+    width: 85px;
     height: 50px;
     border-radius: 20px;
     border: none;
     font-size: 20px;
     background: linear-gradient(to right, #6464ec, #27e5f3, #6464ec);
+    transition: background-color 0.3s;
+}
+
+.botaoOperadores, .botaoResultado {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(to right, #bdfa30, #3ce0e6 ,#bdfa30);
     transition: background-color 0.3s;
 }
 

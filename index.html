@@ -20,42 +20,43 @@
 
         <section id="botoes">
             <div id="linha1">
-                <button class="botao" id="limparC">C</button>
-                <button class="botao" id="parenteses">( )</button>
-                <button class="botao" id="porcento">%</button>
-                <button class="botao" id="divisao">/</button>
+                
+                <button class="botao" onclick= "calculadora.limpar()" >C</button>
+                <button class="botaoOperadores" value= "%">%</button>
+                <button class="botaoOperadores" value= "/">/</button>
             </div>
 
             <div id="linha2">
-                <button class="botao" id="num7">7</button>
-                <button class="botao" id="num8">8</button>
-                <button class="botao" id="num9">9</button>
-                <button class="botao" id="multiplicacao">X</button>
+                <button class="botao" value= "7">7</button>
+                <button class="botao" value= "8">8</button>
+                <button class="botao" value= "9">9</button>
+                <button class="botaoOperadores" value= "*">X</button>
             </div>
 
             <div id="linha3">
-                <button class="botao" id="num4">4</button>
-                <button class="botao" id="num5">5</button>
-                <button class="botao" id="num6">6</button>
-                <button class="botao" id="subtraçao">-</button>
+                <button class="botao" value= "4">4</button>
+                <button class="botao" value= "5">5</button>
+                <button class="botao" value= "6">6</button>
+                <button class="botaoOperadores" value= "-">-</button>
             </div>
 
             <div id="linha4">
-                <button class="botao" id="num1">1</button>
-                <button class="botao" id="num2">2</button>
-                <button class="botao" id="num3">3</button>
-                <button class="botao" id="adiçao">+</button>
+                <button class="botao" value= "1">1</button>
+                <button class="botao" value= "2">2</button>
+                <button class="botao" value= "3">3</button>
+                <button class="botaoOperadores" value= "+">+</button>
             </div>
 
             <div id="linha5">
-                <button class="botao" id="ponto">.</button>
-                <button class="botao0" id="num0">0</button>
-                <button class="botao" id="igual">=</button>
+                <button class="botao" value=".">.</button>
+                <button class="botao" value="0">0</button>
+                <button class="botaoOperadores" value= "()">( )</button>
+                <button class="botaoResultado" onclick="calculadora.calcular()">=</button>
             </div>
         </section>
     </main>
 
-
+    <script src="assets/js/function.js"></script>
 </body>
 
 </html>
